@@ -3,6 +3,7 @@
 class Main extends CI_Controller {
 
 	public function index() {
-		echo 'hahaha';
+		$this->load->view('loket', FALSE);
+		// echo 'hahaha';
 	}
 }
